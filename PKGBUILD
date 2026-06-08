@@ -4,13 +4,13 @@ pkgver=0.2.6
 pkgrel=1
 pkgdesc="OpenCOMAL - a free Comal implementation"
 arch=("x86_64")
-url="https://github.com/your-repo/OpenCOMAL"
+url="https://github.com/ProphetPX/opencomal"
 license=("GPL")
 # Runtime dependencies used by the program
 depends=("ncurses" "readline")
 makedepends=("bison" "flex" "gcc" "make")
-# Use the generated upstream tarball
-source=("/home/prophetpx/opencomal-0.2.6.tar.gz")
+# Use the GitHub release archive for source retrieval
+source=("https://github.com/ProphetPX/opencomal/releases/download/v0.2.6/opencomal-0.2.6.tar.gz")
 sha256sums=("de251ef4a917d55c7fb1257df894043044661179aec1aa771407631bbbf9da87")
 
 build() {
