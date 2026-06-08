@@ -1,0 +1,15 @@
+pkgbase = opencomal
+	pkgdesc = OpenCOMAL - a free Comal implementation
+	pkgver = 0.2.6
+	pkgrel = 1
+	url = https://github.com/your-repo/OpenCOMAL
+	arch = x86_64
+	license = GPL
+	makedepends = bison
+	makedepends = flex
+	makedepends = gcc
+	makedepends = make
+	depends = ncurses
+	depends = readline
+
+pkgname = opencomal
