@@ -30,7 +30,7 @@ STATIC=
 #PROFILE=-pg
 PROFILE=
 
-COPTS=-c -Wall -Wextra -std=c11 -DOS_LINUX $(PROFILE) -flto
+COPTS=-c -Wall -Wextra -std=c11 -DOS_LINUX $(PROFILE) 
 ifeq ($(OPSYS),macos)
 COPTS+=-Oz -I/usr/local/opt/readline/include
 else
@@ -41,7 +41,7 @@ ifneq ($(OPSYS),macos)
 LIBS+=-lm
 endif
 
-LDOPTS=$(STATIC) $(LIBS) -flto
+LDOPTS=$(STATIC) $(LIBS) 
 
 %.d: %.c
 		set -e; $(CC) -M $(CPPFLAGS) $< \

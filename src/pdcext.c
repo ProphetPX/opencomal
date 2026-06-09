@@ -10,7 +10,7 @@
 
 /* OpenComal 'default' extensions */
 
-#include "pdcglob.h"
+#include "pdcglob.h"\nextern int tracking_active;
 #include "pdcstr.h"
 #include "pdcmisc.h"
 #include "pdcexec.h"

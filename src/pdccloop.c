@@ -1,3 +1,4 @@
+int tracking_active = 0;
 /*
  * OpenComal -- a free Comal implementation
  *
@@ -91,6 +92,7 @@ PUBLIC struct comal_line *crunch_line(char *line)
 
 PUBLIC void comal_loop(int newstate)
 {
+    tracking_active = 1;
 	char line[MAX_LINELEN];
 	struct comal_line *aline;
 	int ret = 0;
