@@ -1,4 +1,5 @@
-# OpenCOMAL
+# OpenCOMAL 
+(PPX branch, + my own Patch 1)
 
 This is a slightly patched version of [Jos Visser](http://www.josvisser.nl/)'s
 [OpenComal](http://www.josvisser.nl/opencomal/)
