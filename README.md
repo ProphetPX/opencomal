@@ -7,8 +7,15 @@ This is a slightly patched version of [Jos Visser](http://www.josvisser.nl/)'s
 
 ## FAQ
 
+Since my recent efforts, and having already reached out to the original author of the project, Jos Visser, he has been briefly corresponding with me over the past 2-3 days, and I am now very happy to announce that his own work (the original project) for OpenComal is now online (with weird timing because i was attempting this at the same time).  His github is actually new and he has made his own new changes to his original codebase + improvements of his own.  Reach his work here: 
+https://github.com/josvisser66/opencomal 
+and here: 
+https://www.josvisser.nl/opencomal/www/ 
+
+
 ### Why this fork?
 
+OLD text from 2-3 days ago: 
 When trying to run the latest stable or instable OpenComal on more or
 less recent versions of Linux (Ubuntu 8.04 and Ubuntu 10.04), the
 included Linux binaries `opencomal` and `opencomalrun` immediately
@@ -22,8 +29,12 @@ PASCAL-flavoured dialect of the (in)famous BASIC programming language.
 
 ### Does Jos Visser, the original author, endorse this fork?
 
-I don't know. He did not answer my e-mail. Legally there should not
-be any problem because OpenComal is licensed under the GPL.
+I don't know. He DID answer my e-mail. His own work has been updating since before I heard back from him and his own work on this project can be found here: 
+https://github.com/josvisser66/opencomal  
+And here: 
+https://www.josvisser.nl/opencomal/www/ 
+
+Legally there should not be any problem because OpenComal is licensed under the GPL.
 
 ### I do not see a new line number after entering `auto`. Is this wrong?
 
