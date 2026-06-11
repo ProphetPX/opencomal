@@ -1,3 +1,9 @@
+#define _XOPEN_SOURCE 500
+#include <stdio.h>
+#include <unistd.h>
+#define _XOPEN_SOURCE 500
+#include <stdio.h>
+#include <unistd.h>
 /*
  * OpenComal -- a free Comal implementation
  *
